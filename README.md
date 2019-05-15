@@ -1,1 +1,1 @@
-# Dynamic-WCD_AmygNet
+# Dynamic-WCD
