@@ -3,10 +3,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-class AdaDropout(nn.Module):
+class TFD(nn.Module):
 
     def __init__(self, channels, test_state=False, M_ratio_range=[0.85,0.9], drop_mean_std=[0.2,0.05]):
-       super(AdaDropout, self).__init__()
+       super(TFD, self).__init__()
 
        assert M_ratio_range[1] > M_ratio_range[0]
 
